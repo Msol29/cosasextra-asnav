@@ -1,24 +1,82 @@
-body{
+
+.{
     display: flex;
     background-color:2D2D2A;
     opacity: 10;
-    font-family: "Lucida Console", Times, serif;
+    
+}
+nav {
+  width: 30%;
 }
 .list-navegacion {
 width: 70%;
 list-style: none; 
 display:flex;
+flex-wrap: wrap;
 justify-content: space-around;
+align-items: center;
 position: absolute;
+margin: 0%;
 top: 8px;
-right: 16px;
-background-color: red;
-text-decoration:none;
+right: 2%;
+text-transform: uppercase;
 }
+
 .pepe {
 width: 20%;
 }
-  a:hover{
+
+ a{
+   color: antiquewhite;
+   text-decoration: none;
+
+ }
+ 
+ a:hover{
+   background-color: black;
     color: goldenrod;
   }
+ .container-header {
+   display: flex;
+   width: 60%;
+   margin: 0%;
+   padding:0%
+ }
+ .once {
+   width: 300px;
+   position: absolute;
+   top: 30%;
+   border-radius: 8px;
+   right: 20%;
+   
+ }
+ body{
+  font-family: 'Oswald', sans-serif ;
+  background-image: url("./fondulis.jpg");
+  background-size: cover;
+ }
+ .will {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  color: antiquewhite;
+
+  }
+  .boton {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .footer {
+  position: absolute;
+  top: 100%;
+  color: azure;
+  {border-style: inset;}
+  }
  
+    
+   
