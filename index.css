@@ -1,24 +1,188 @@
-body{
+
+.{
     display: flex;
     background-color:2D2D2A;
     opacity: 10;
-    font-family: "Lucida Console", Times, serif;
+    margin: 0%;
+    padding: 0%;
+  
+    
+}
+flexbox-space-around {
+  align-items: center;
+}
+nav {
+  width: 30%;
 }
 .list-navegacion {
 width: 70%;
 list-style: none; 
 display:flex;
+flex-wrap: wrap;
 justify-content: space-around;
+align-items: center;
 position: absolute;
+margin: auto;
 top: 8px;
-right: 16px;
-background-color: red;
-text-decoration:none;
+right: 2%;
+text-transform: uppercase;
 }
+
 .pepe {
 width: 20%;
 }
-  a:hover{
+
+ a{
+   color: antiquewhite;
+   text-decoration: none;
+
+ }
+ 
+ a:hover{
+   background-color: black;
     color: goldenrod;
   }
- 
+ .container-header {
+   display: flex;
+   width: 60%;
+   margin: 0%;
+   padding:0%
+ }
+ .once {
+   width: 300px;
+   height: 300px;
+
+   border-radius: 8px;
+   
+ }
+ body{
+  font-family: 'Oswald', sans-serif ;
+  background-image: url("./fondulis.jpg");
+  background-size: cover;
+ }
+ .will {
+
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  }
+  .cajita {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+.subtit{
+  margin: center;
+  margin-left: 5%;
+}
+.cosode3 {
+
+  width: 250px;
+  height: 70px;
+  margin-left: 40%;
+  color: antiquewhite;
+  margin-top: 10%;
+
+
+ }
+.seccion1{
+  width: 300px;
+  height: 300px;
+  color: antiquewhite;
+  text-align: center;
+  
+}
+.seccion2{
+  width: 300px;
+  height: 300px;
+  color: antiquewhite;
+  text-align: center;
+  
+}
+.seccion3{
+
+  width: 300px;
+  height: 300px;
+  color: antiquewhite;
+  text-align: center;
+}
+.seccion4{
+  width: 300px;
+  height: 300px;
+  color: antiquewhite;
+  text-align: center;
+}
+.icono{
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  border-radius: 50%;
+}
+.icono1{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.div-papa{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cosode4 {
+
+  width: 250px;
+  height: 70px;
+  margin-left: 45%;
+  color: antiquewhite;
+  margin-top: 10%;
+
+ }
+
+ .arriba{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+
+ .boton {
+  background-color: darkred;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  text-align: center;
+}
+.botona {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  text-align: center;
+  opacity: 0.5;
+  cursor: not-allowed;
+
+}
+.botone {
+  
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: darkred;
+  color:white;
+  cursor: pointer;
+}
+
+.botones{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
