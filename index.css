@@ -49,8 +49,8 @@ width: 20%;
    padding:0%
  }
  .once {
-   width: 300px;
-   height: 300px;
+   width: 27%;
+   
 
    border-radius: 8px;
    
@@ -85,32 +85,12 @@ width: 20%;
 
  }
 .seccion1{
-  width: 300px;
-  height: 300px;
+  width: 25%;
   color: antiquewhite;
   text-align: center;
   
 }
-.seccion2{
-  width: 300px;
-  height: 300px;
-  color: antiquewhite;
-  text-align: center;
-  
-}
-.seccion3{
 
-  width: 300px;
-  height: 300px;
-  color: antiquewhite;
-  text-align: center;
-}
-.seccion4{
-  width: 300px;
-  height: 300px;
-  color: antiquewhite;
-  text-align: center;
-}
 .icono{
   width: 150px;
   height: 150px;
@@ -148,21 +128,19 @@ width: 20%;
   justify-content: space-around;
  }
 
- .boton {
+ .boton-viciar {
   background-color: darkred;
   border: none;
-  color: white;
+  color:white;
   padding: 16px 32px;
-  text-decoration: none;
   margin: 4px 2px;
-  cursor: pointer;
-
   text-align: center;
+  cursor: pointer;
 }
-.botona {
+.boton-vida {
   background-color: transparent;
   border: none;
-  color: white;
+ color: white;
   padding: 16px 32px;
   text-decoration: none;
   margin: 4px 2px;
@@ -171,7 +149,8 @@ width: 20%;
   cursor: not-allowed;
 
 }
-.botone {
+
+.boton-mas {
   
   width: 45px;
   height: 45px;
@@ -185,4 +164,75 @@ width: 20%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+
+
+
+.carta-presentacion{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  color: antiquewhite;
+  margin-left: 10%;
+
+}
+
+
+
+.conicono{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+
+ 
+}
+
+.cac{
+ width: 300px;
+ height: 100px;
+ flex-direction: column;
+ display: flex;
+}
+
+.mapa{
+  width: 600px;
+  height: 400px;
+}
+
+.titt{
+  text-align: center;
+}
+
+.footer{
+  color: antiquewhite; 
+  text-align: center;
+}
+
+@keyframes boton {
+
+  from {background-color: darkred;}
+  to {background-color: green;}
+}
+.boton-viciar:hover {
+
+  
+  animation-name: boton;
+  animation-duration: 0.5s;
+  }
+.once
+{
+  transition: width 1s, height 1s;
+  animation-iteration-count: 1;
+}
+.once:hover {
+  width: 30%;
+  height: 30%;
+}
+
+.conicono:hover{
+  color: palevioletred;
+  
 }
